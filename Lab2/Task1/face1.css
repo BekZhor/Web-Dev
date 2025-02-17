@@ -1,0 +1,208 @@
+/* Сброс стандартных отступов и паддингов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основной стиль для body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f4f7;
+    overflow-y: auto; /* Автоматическая прокрутка по вертикали */
+    overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+    width: 100%;
+    height: 100vh; /* Высота экрана */
+}
+
+/* Логотип */
+.logo {
+    font-weight: bold;
+    color: #0866ff;
+    font-size: 70px;
+    font-family: "Gill Sans MT", sans-serif;
+    margin: 5px;
+}
+
+/* Текст под логотипом */
+.words {
+    font-size: 30px;
+    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 5px;
+}
+
+/* Основной контейнер для элементов */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 300px;
+    width: 70%;
+    max-width: 900px; /* Ограничиваем максимальную ширину */
+    height: 500px;
+}
+
+/* Вложенные элементы */
+.inner {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white; /* Убираем комментарий */
+}
+
+/* Стиль для блока с логотипом и текстом */
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    width: 40%;
+}
+
+/* Стиль для блока формы */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    row-gap: 10px;
+}
+
+/* Стиль для полей ввода */
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Стиль для каждого поля ввода */
+.pair {
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Активное состояние для полей ввода */
+.pair:active {
+    border-color: blue;
+}
+
+/* Стиль для кнопок */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Кнопка входа */
+.signin {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.signin:hover {
+    background-color: #155f9b;
+}
+
+/* Кнопка создания аккаунта */
+.create {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.create:hover {
+    background-color: #36a420;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Разделитель */
+hr {
+    width: 80%;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Блок для создания страницы */
+.signup {
+    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+/* Стиль для футера */
+footer {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-top: 150px;
+    background-color: white;
+    width: 100%;
+    row-gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стиль для текста футера */
+.footer {
+    width: 80%;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Языковая панель */
+.p.lang {
+    display: inline;
+    text-align: left;
+}
+
+.lang:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.plus {
+    display: inline;
+}
+
+.copyright {
+    text-align: left;
+}
+
+/* Стили для копирайта */
+.copyright:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
