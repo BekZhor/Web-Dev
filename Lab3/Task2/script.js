@@ -22,3 +22,15 @@ listContainer.addEventListener("click", function(e) {
 });
 
 document.getElementById("add-goal-btn").addEventListener("click", addGoal);
+
+const checkedlistContainer = document.getElementById("checked-list");
+
+function addCheckBox() {
+    const li = document.body.querySelectorAll("li");
+    for(let i in li){
+    if(li.classList.contains("checked")) {
+        checkedlistContainer.appendChild(li);
+
+    }
+    }
+}
