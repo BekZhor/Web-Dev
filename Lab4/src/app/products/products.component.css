@@ -1,0 +1,102 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: stretch;
+
+}
+li{
+  list-style: none;
+}
+#main{
+  border: 1px solid black;
+  margin: 20px;
+  width: 290px;
+  height: auto;
+}
+
+img{
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+
+p{
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+#name{
+  text-align: center;
+  color: blue;
+}
+
+#desc{
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+
+}
+
+#rat{
+  text-align: center;
+
+}
+
+a{
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+#but{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+button{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #0f72bd;
+  color: white;
+  border: none;
+
+}
+button:hover{
+  cursor: pointer;
+  background-color: #00A5D2;
+  text-decoration: underline;
+}
+
+#wh{
+  text-align: center;
+
+  margin-bottom:10px;
+}
+
+#tg{
+  text-align: center;
+
+  margin-bottom:10px;
+}
+
+
