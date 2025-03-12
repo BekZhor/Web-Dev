@@ -6,10 +6,91 @@
   <component name="ChangeListManager">
     <list default="true" id="9afd2feb-7713-4ab7-8cc8-ff7b60ef3d26" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Task2/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Task2/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Task2/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Task2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Task2/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Task2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Task2/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Sources/field.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/product-information.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-item/product-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-item/product-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-item/product-item.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-item/product-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-list/product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-list/product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-list/product-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/products/product-list/product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/services/products.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/app/services/products.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/books/catsdiseappear.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/books/crowking.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/books/lifeforsale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/books/littlewomen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/books/tennegros.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/laptops/aceraspire3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/laptops/applemacbook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/laptops/hydrah20.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/laptops/ideapad3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/laptops/wildhunter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/iphone15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/iphone16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/iphone16pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/pocox65g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/realmenote50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/samsunggalaxya06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/samsunggalaxya555g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/samsungs24ultra5g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/xiaomiredmi13c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/smartphones/xiaomiredmia3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/Lumpinou_RPO_Collection_AllFilesInOneArchive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/Lumpinou_R_P_O_Collection_RU_group_Origamika.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/atomicheart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/blackmythwukong.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/codmw2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/godofwarr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/assets/videogames/metroexodus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/kaspi/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/dot/gggg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/dot/rrr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/first/first.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/first/first.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/first/first.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/first/first.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/second/second.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/second/second.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/second/second.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/app/second/second.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/routing-app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laaaa/ggggg.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +100,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -39,24 +125,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.task2.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "C:/Users/Lenovo/Documents/Coding/Web-dev",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.app.component.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.task2.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.products.component.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Documents/Coding/Web-dev&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Lenovo\\Documents\\Coding\\Web-dev\\Lab4\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\Lenovo\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="fa8e39c8-f1aa-459f-b7ac-06d441706bee" reportId="Web-dev/qodana/2025-02-28" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,6 +180,13 @@
       <workItem from="1739938506000" duration="6759000" />
       <workItem from="1739961574418" duration="1726000" />
       <workItem from="1740324983006" duration="330000" />
+      <workItem from="1740325429396" duration="332000" />
+      <workItem from="1740519280518" duration="5873000" />
+      <workItem from="1740546558311" duration="14302000" />
+      <workItem from="1740687190882" duration="7792000" />
+      <workItem from="1740911927780" duration="15083000" />
+      <workItem from="1741711637157" duration="14026000" />
+      <workItem from="1741732402243" duration="8593000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,27 @@
+
+<p (click)="Choose($event)">Phone</p>
+<p (click)="Choose($event)">Charge</p>
+<p (click)="Choose($event)">Watch</p>
+<p (click)="Choose($event)">Laptop</p>
+
+
+<app-productlist [category]="Category"></app-productlist>
+
+
+
+<!--<ul id="list">
+  <li *ngFor="let product of filteredProducts; let i = index" [id]="'share-container-' + i">
+    <div id="main">
+      <img src="{{product.imageUrl}}">
+      <p id="name">{{product.name}}</p>
+      <p id="desc">{{product.description}}</p>
+      <p id="rat">Рейтинг: {{product.rating}}&bigstar;</p>
+      <a href="https://kaspi.kz/shop/" target="_blank">Смотреть на Kaspi</a>
+      <div id="but">
+        <button id="wh" (click)="shareOnWhatsApp(i)">Share in Whatsapp</button>
+        <button id="tg"  (click)="shareOnTelegram(i)">Share in Telegram</button>
+      </div>
+    </div>
+  </li>
+</ul>
+-->

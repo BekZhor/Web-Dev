@@ -1,0 +1,13 @@
+<div *ngIf="album">
+    <p>Album_ID:{{album.id}}</p>
+    <p>Album_Title:{{album.title}}</p>
+    <p>User_ID:{{album.userId}}</p>
+</div>
+<button (click)="Return()">Return</button>
+
+<fieldset *ngIf="album">
+    <input type="text" placeholder="Title"     [(ngModel)]="newtitle">
+    <button (click)="upd( album.id, newtitle)">Save</button>
+</fieldset>
+
+<p *ngIf="album"><a routerLink="/albums/{{album.id}}/photos">Photos</a></p>

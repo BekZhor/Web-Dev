@@ -1,0 +1,15 @@
+<button (click)="Return()">Return</button>
+
+<div *ngIf="photo">
+    <ul >
+        <li *ngFor="let p of photo">
+        <p>Album_ID:{{p.albumId}}</p>
+        <p>id:{{p.id}}</p>
+        <p>title:{{p.title}}</p>
+        <p>Image:{{p.url}}</p>
+        <p>Thumb:{{p.thumbnailUrl}}</p>
+        <img [src]="p.url" alt="img">
+        <img [src]="p.thumbnailUrl" alt="thumb">
+        </li>
+    </ul>
+</div>

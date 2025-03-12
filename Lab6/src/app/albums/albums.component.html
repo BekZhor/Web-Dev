@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let album of albums"><a routerLink="/albums/{{album.id}}" >{{album.title}}</a>
+    <button (click)="Delete(album.id)">Delete</button>
+  </li>
+</ul>
