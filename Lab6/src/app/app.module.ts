@@ -8,25 +8,18 @@ import { AboutComponent } from './about/about.component';
 import { AlbumsComponent } from './albums/albums.component';
 import { AlbumsdetailComponent } from './albumsdetail/albumsdetail.component';
 import { AlbumsphotosComponent } from './albumsphotos/albumsphotos.component';
-import {HttpClientModule} from "@angular/common/http";
+import { provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutComponent,
-    AlbumsComponent,
-    AlbumsdetailComponent,
-    AlbumsphotosComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HomeComponent,
+        AboutComponent,
+        AlbumsComponent,
+        AlbumsdetailComponent,
+        AlbumsphotosComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        FormsModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }

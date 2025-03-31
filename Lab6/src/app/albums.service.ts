@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {Observable, of, switchMap} from "rxjs";
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import { Album, Photo} from "../models";
 
 @Injectable({
