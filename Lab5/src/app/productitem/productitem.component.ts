@@ -2,9 +2,10 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {product} from "../models";
 
 @Component({
-  selector: 'app-productitem',
-  templateUrl: './productitem.component.html',
-  styleUrl: './productitem.component.css'
+    selector: 'app-productitem',
+    templateUrl: './productitem.component.html',
+    styleUrl: './productitem.component.css',
+    standalone: false
 })
 export class ProductitemComponent {
 

@@ -4,9 +4,10 @@ import {product} from "../models";
 
 
 @Component({
-  selector: 'app-productlist',
-  templateUrl: './productlist.component.html',
-  styleUrl: './productlist.component.css'
+    selector: 'app-productlist',
+    templateUrl: './productlist.component.html',
+    styleUrl: './productlist.component.css',
+    standalone: false
 })
 export class ProductlistComponent {
   products = [new product('https://resources.cdn-kaspi.kz/img/m/p/hf3/h65/87295470731294.png?format=preview-large', 'Apple iPhone 16 128Gb черный', 'Phone 16 – новый дизайн, яркие цвета, мощный процессор и свежая iOS 18 с искусственным интеллектом.', 5,'Phone'),
