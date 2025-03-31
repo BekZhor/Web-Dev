@@ -5,9 +5,10 @@ import {AlbumsService} from "../albums.service";
 import {Location} from "@angular/common";
 
 @Component({
-  selector: 'app-albumsdetail',
-  templateUrl: './albumsdetail.component.html',
-  styleUrl: './albumsdetail.component.css'
+    selector: 'app-albumsdetail',
+    templateUrl: './albumsdetail.component.html',
+    styleUrl: './albumsdetail.component.css',
+    standalone: false
 })
 export class AlbumsdetailComponent {
   album: Album | undefined;

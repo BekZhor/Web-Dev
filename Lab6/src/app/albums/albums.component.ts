@@ -3,9 +3,10 @@ import { Album} from "../../models";
 import {AlbumsService} from "../albums.service";
 
 @Component({
-  selector: 'app-albums',
-  templateUrl: './albums.component.html',
-  styleUrl: './albums.component.css'
+    selector: 'app-albums',
+    templateUrl: './albums.component.html',
+    styleUrl: './albums.component.css',
+    standalone: false
 })
 export class AlbumsComponent implements OnInit {
   albums: Album[] = [];
