@@ -13,7 +13,7 @@ def product_detail(request, id):
         product = Products.objects.values().get(id=id)
         return JsonResponse(product, safe=False)
     except Products.DoesNotExist:
-        return JsonResponse({'error': 'Продукт не найден'}, status=404)
+        return JsonResponse({'error': 'Продукт не найден'})
 
 
 def category_list(request):
@@ -26,7 +26,7 @@ def category_detail(request, id):
         category = Category.objects.values().get(id=id)
         return JsonResponse(category, safe=False)
     except Category.DoesNotExist:
-        return JsonResponse({'error': 'Категория не найдена'}, status=404)
+        return JsonResponse({'error': 'Категория не найдена'})
 
 
 def category_products(request, id):

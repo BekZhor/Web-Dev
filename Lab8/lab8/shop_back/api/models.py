@@ -6,11 +6,6 @@ class Category(models.Model):
     def __str__(self):
         return self.name
     
-    def to_json(self):
-        return {
-            "id": self.id,
-            "category": self.name
-        }
     
 
 class Products(models.Model):
@@ -26,14 +21,4 @@ class Products(models.Model):
 
     def __str__(self):
         return f"{self.id} {self.name}, {self.price}, {self.description}, {self.count}, {self.is_active}"
-
-    def to_json(self):
-        return {
-            "id": self.id,
-            "name": self.name,
-            "price": self.price,
-            "desctiption": self.description,
-            "count": self.count,
-            "is_active": self.is_active
-        }
 
