@@ -1,0 +1,14 @@
+<ul>
+  <li class="compan" *ngFor="let company of companies" (click)="Show(company.id)">
+    {{company.name}}
+  </li>
+</ul>
+
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    name:{{vacancy.name}},
+    salary:{{vacancy.salary}},
+    company:{{vacancy.company}}
+  </li>
+</ul>
+

@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-o(56ofuja&k=m_=z8s3!+5oj88&ojj!6^kz5#ihn%nm=w=jukv'
+SECRET_KEY = 'django-insecure-$6!7r_j_t)k=m7=+9*08kr8v8f743r3ujwjyv_mk9%jx@a8spd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -53,17 +53,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
-
-CORS_ALLOW_METHODS = [
-    'GET',
-    'POST',
-    'PUT',
-    'DELETE',
-    'PATCH',
-    'OPTIONS',  # Убедись, что OPTIONS разрешен
-]
-
 ROOT_URLCONF = 'hh_back.urls'
 
 TEMPLATES = [
@@ -81,6 +70,18 @@ TEMPLATES = [
         },
     },
 ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'PUT',
+    'DELETE',
+    'PATCH',
+    'OPTIONS',  # Убедись, что OPTIONS разрешен
+]
+
 
 WSGI_APPLICATION = 'hh_back.wsgi.application'
 
